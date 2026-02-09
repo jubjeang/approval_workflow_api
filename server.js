@@ -5,7 +5,7 @@ const cors = require('cors');
 const ActiveDirectory = require('activedirectory2');
 const {
   queryPagedTracking,
-  getInspectionById,
+  getInspectionById, 
   getPool
 } = require('./controllers/dboperations');
 const sql = require('mssql');
